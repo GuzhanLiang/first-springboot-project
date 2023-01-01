@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class UrlCheckController {
     private final String SITE_IS_UP = "Site is up";
-    private final String SITE_IS_DOWN = "Site is ddown!!!!";
+    private final String SITE_IS_DOWN = "Site is down!!!!";
     private final String INCORRECT_URL = "URL is incorrect";
 
     @GetMapping("/check")
